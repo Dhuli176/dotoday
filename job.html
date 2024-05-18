@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoToday - Simplifying Life</title>
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- Link To CSS -->
+  <link rel="stylesheet" href="try.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">DoToday</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="try.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="job.html">Menu</a></li>
+            <li><a href="repairing.html">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- Dark Mode -->
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+
+    <section class="menu" id="menu">
+        <div class="heading">
+            <!--<span>Menu</span>-->
+            <h2>appling for job</h2>
+        </div>
+        <div class="menu-container">
+  <!--appling for job form-->
+    <div class="main-job-application-form">			
+	
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="name" placeholder="Enter name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="email" placeholder="Enter email" required>
+            
+            <label for="tel">Phone Number</label>
+            <input type="tel" name="tel" class="tel" maxlength="10" id="tel" placeholder="Enter phone number" required>
+            
+            <label for="position">Position</label>
+            <select name="position" class="position" id="position" placeholder="" required>
+                <option value="">Select a position you are applying for</option>
+                <option value="">plumber</option>
+                <option value="">driver</option>
+                <option value="">home cleaner</option>
+                <option value="">cooker</option>
+                <option value="">furniture repair </option>
+                <option value="">other</option>
+            </select>
+            
+            <label for="Email">How many years of experience do you have?</label><br>
+            <input type="radio" id="exp1" name="experience" value="1">
+            <label for="exp1">1</label><br>
+            <input type="radio" id="exp2" name="experience" value="2">
+            <label for="exp2">2</label><br>
+            <input type="radio" id="exp3" name="experience" value="3">
+            <label for="exp3">3</label><br>
+            <input type="radio" id="exp4" name="experience" value="4">
+            <label for="exp4">4</label><br>
+            <input type="radio" id="expmore4" name="experience" value="more4">
+            <label for="expmore4">More than 4</label><br><br>
+            
+            <label for="cover">Cover Letter</label>
+            <textarea name="cover" class="cover" id="cover" placeholder="Please tell us why you're a good fit for this position and why you want to work with us" rows="5" required></textarea>
+            
+            <label for="file">Resume</label><br>		
+            <input type="file" name="file" class="file" required><br>
+            <small>Please upload your resume in PDF format</small><br><br>
+            
+            <input name="submit" type="submit" value="Submit">
+        </form>
+        
+    </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3>DoToday</h3>
+            <span>Get in Touch</span>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Menu Links</h3>
+            <li><a href="try.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="job.html">Menu</a></li>
+            <li><a href="repairing.html">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+        <div class="contact-box">
+            <h3>Quick Links</h3>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Privacy Policy">Privacy Policy</a></li>
+            <li><a href="#Disclaimer">Disclaimer</a></li>
+            <li><a href="#Terms Of Use">Terms Of Use</a></li>
+        </div>
+        <div class="contact-box address">
+            <h3>Contact</h3>
+            <i class='bx bxs-map' ><span>005, Lorem ipsum dolor, sit amet consectetur, India</span></i>
+            <i class='bx bxs-phone' ><span>+91 000 999 5555</span></i>
+            <i class='bx bxs-envelope' ><span>Example@email.com</span></i>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&copy; 2024 DoToday. All Rights Reserved.</p>
+    </div>
+
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link To JavaScript -->
+    <script src="try.js"></script>
+</body>
+</html>

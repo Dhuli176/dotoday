@@ -1,0 +1,52 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fixin' Tools</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#job-section">Jobs</a></li>
+        <li><a href="#repair-section">Repair</a></li>
+      </ul>
+    </nav>
+    <link rel="stylesheet" href="try.css">
+  </header>
+  <main>
+    <section id="job-section">
+      <h2>Jobs</h2>
+      <form>
+        <label for="location">Choose where you want to do the job:</label>
+        <input type="text" id="location" name="location"><br><br>
+        <label for="mode">Select mode:</label>
+        <select id="mode" name="mode">
+          <option value="offline">Offline</option>
+          <option value="online">Online</option>
+        </select><br><br>
+        <label for="job-type">Find your type of job:</label>
+        <input type="text" id="job-type" name="job-type"><br><br>
+        <input type="submit" value="Send Request">
+      </form>
+    </section>
+    <section id="repair-section">
+      <h2>Repair</h2>
+      <form>
+        <label for="damage">Type what is damaged:</label>
+        <input type="text" id="damage" name="damage"><br><br>
+        <label for="repairer">Choose your repairer:</label>
+        <select id="repairer" name="repairer">
+          <!-- list of repairers -->
+        </select><br><br>
+        <label for="payment">Choose to pay:</label>
+        <select id="payment" name="payment">
+          <option value="online">Online</option>
+          <option value="offline">Offline</option>
+        </select><br><br>
+        <input type="submit" value="Complete Process">
+      </form>
+    </section>
+  </main>
+</body>
+</html>
